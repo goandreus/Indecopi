@@ -1,0 +1,180 @@
+.cabeceraBienvenida{
+	background: #a865e1;width: 100%;height: 720px!important;
+}
+.metricaGeneral{
+	text-align:center;margin-top:80px;flex-wrap:wrap;width: 750px;display:inline-flex;margin-left: 150px;
+}
+.tituloCabecera{
+	display:inline-flex;width: 100%;margin-top: 150px;padding-left: 150px;
+}
+.consultaProveedor{
+	text-align:center;margin-top:80px;flex-wrap:wrap;width: 750px;display:inline-flex;margin-left: 150px;
+}
+
+.detalleRiesgo
+{
+	width: 50%;
+	display:inline-block;
+}
+.mapaRiesgo{
+	width: 50%;
+	display:inline-block;
+}
+.mapasEstadistico{
+	display:inline-flex;background-color: #fff;width: 100%;height: 700px;padding: 4%;
+}
+
+.botonSancionados{
+	padding: 2%;background: #fff;border: 2px solid #6610f2}
+
+//*//// Estilos Ventana emergente de Reclamos ////*/
+.popup-content h3{
+  border-bottom: 1px solid #833ce8;
+  font-size: 1.2em;
+  color:#833ce8;
+  margin-bottom: .5em;
+}
+/*//////////////////////*/
+.popup{
+  left: 0;
+  position: fixed;
+  top: 55%;
+  transition: left .5s ease;
+}
+.popup-content{
+    background-color: #f9f9f9;
+    box-shadow:  5px 2px 15px black;
+    box-sizing: border-box;    
+    color: #ccc;
+    float: left;
+    height: 350px;
+    padding: 1em;
+    width: 275px;    
+}
+
+.close{
+  left: -275px;
+}
+
+.button{
+  background-color:  #ff0000;  
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow:  5px 2px 15px black;   
+  float: left;
+  height: 95px;
+  padding-top: 1.5em;
+  width: 40px;  
+}
+ 
+/* Estilo para el acordeon de la ventana flotante de reportes */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #cccc330f;
+}
+
+
+.panel {
+    padding: 14px 18px 0px 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+/* Fin de estilos de ventana emergente*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.columna1{
+		width: 100%;
+		padding: 2%;
+	}
+	.cabeceraBienvenida{
+	background: #a865e1;width: 100%;height: 500px;
+	}
+	.metricaGeneral{
+	margin-top:20px;flex-wrap:wrap;width: auto;display:flex;margin-left: 15%
+	}
+	.tituloCabecera{
+		display:inline-flex;width: 100%;margin-top: 150px;padding-left: 5%;
+	}
+		.mapasEstadistico{
+		display:block;width: 100%;height: 100%!important;padding: 4%;margin:0 auto;
+	}
+	.consultaProveedor{
+		text-align:center;margin-top:50px;flex-wrap:wrap;width: auto;display:inline-flex;margin-left: 15%;
+	}
+	.welcome-thumb img{
+		display: none;
+	}
+	.mapaRiesgo{
+	width: 100%;
+	display:block;
+	}
+	.detalleRiesgo
+	{
+		width: 100%;
+		display:block;
+		padding-bottom: 15%;
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	.columna1{
+		width: 100%;
+		padding: 2%;
+		display: flex;
+	}
+	.cabeceraBienvenida{
+	background: #a865e1;width: 100%;height: 750px;
+	}
+	.metricaGeneral{
+	margin-top:20px;flex-wrap:wrap;width: auto;display:inline-flex;margin-left: 5%
+	}
+	.tituloCabecera{
+		display:inline-flex;width: 100%;margin-top: 150px;padding-left: 5%;
+	}
+		.mapasEstadistico{
+		display:block;width: 100%;height: 100%!important;padding: 4%;margin:0 auto;
+	}
+	.consultaProveedor{
+		text-align:center;margin-top:50px;flex-wrap:wrap;width: auto;display:inline-flex;margin-left: 5%;
+	}
+	.get-start-area .consulta{
+		width: 250px;
+	}
+	.welcome-thumb img{
+		display: none;
+	}
+	.mapaRiesgo{
+	width: 100%;
+	display:block;
+	}
+	.detalleRiesgo
+	{
+		width: 100%;
+		display:block;
+		height: 60
+		0px;
+		padding-bottom: 15%;
+	}
+	#oculto{
+		margin-top: 20px;
+		display: block!important;
+	}
+	#visible{
+		display: none!important;
+	}
+	.botonSancionados{
+	padding: 2%;
+	margin-top:4%!important;background: #fff;border: 2px solid #6610f2}
+}
